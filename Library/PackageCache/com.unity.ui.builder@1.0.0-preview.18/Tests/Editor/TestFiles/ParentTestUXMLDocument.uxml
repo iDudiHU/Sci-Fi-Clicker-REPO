@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Template name="ChildTestUXMLDocument" src="ChildTestUXMLDocument.uxml" />
+    <ui:Instance template="ChildTestUXMLDocument" name="ChildTestUXMLDocument">
+        <Style src="ColorsTestStyleSheet.uss" />
+    </ui:Instance>
+    <ui:VisualElement name="TestElement">
+        <Style src="ColorsTestStyleSheet.uss" />
+    </ui:VisualElement>
+</ui:UXML>
