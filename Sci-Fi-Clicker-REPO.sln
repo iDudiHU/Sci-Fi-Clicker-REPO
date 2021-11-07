@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinwheel.Polaris.Runtime", "Pinwheel.Polaris.Runtime.csproj", "{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1473977B-B5CA-F44F-BF48-9F0BAD99351D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinwheel.Polaris.Editor", "Pinwheel.Polaris.Editor.csproj", "{AE437A6D-ABD0-D26B-070D-C20052019599}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1473977B-B5CA-F44F-BF48-9F0BAD99351D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1473977B-B5CA-F44F-BF48-9F0BAD99351D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1473977B-B5CA-F44F-BF48-9F0BAD99351D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1473977B-B5CA-F44F-BF48-9F0BAD99351D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE437A6D-ABD0-D26B-070D-C20052019599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE437A6D-ABD0-D26B-070D-C20052019599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE437A6D-ABD0-D26B-070D-C20052019599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE437A6D-ABD0-D26B-070D-C20052019599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

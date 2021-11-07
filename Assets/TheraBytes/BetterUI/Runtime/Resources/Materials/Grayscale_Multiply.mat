@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Grayscale_Multiply
   m_Shader: {fileID: 4800000, guid: 9c938b662d6b04f4c914cc4cabe4b22d, type: 3}
-  m_ShaderKeywords: FORCE_CLIP
+  m_ShaderKeywords: FORCE_CLIP UNITY_UI_ALPHACLIP
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{00E0B449-C462-7220-6A34-2CAF53041BF7}</ProjectGuid>
+    <ProjectGuid>{1473977B-B5CA-F44F-BF48-9F0BAD99351D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -509,6 +509,9 @@
     <Reference Include="UnityEditor.TextCoreTextEngineModule">
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
     </Reference>
@@ -1004,9 +1007,6 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UIBuilderModule">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UIBuilderModule.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
@@ -1052,15 +1052,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{00AE41A6-CDB1-38B4-17A4-E27F39682F63}</Project>
+      <Project>{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Pinwheel.Polaris.Editor.csproj">
-      <Project>{67FAEE1F-DBC8-EA78-5D9E-517966C8A798}</Project>
+      <Project>{AE437A6D-ABD0-D26B-070D-C20052019599}</Project>
       <Name>Pinwheel.Polaris.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Pinwheel.Polaris.Runtime.csproj">
-      <Project>{F8A38836-C35D-DBEC-A700-D9B876F1FEDB}</Project>
+      <Project>{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}</Project>
       <Name>Pinwheel.Polaris.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

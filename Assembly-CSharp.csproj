@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{00AE41A6-CDB1-38B4-17A4-E27F39682F63}</ProjectGuid>
+    <ProjectGuid>{5AC95705-FCFE-8E9B-FA47-13B1B1ADD9D3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,6 +52,9 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.2.0f1</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\BigDouble.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Utilities\JInternalShaderSettings.cs" />
@@ -105,7 +108,6 @@
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PWaterMode.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Scripts\GTakeScreenshot.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\DayNightCycle\JDayNightCycle.cs" />
-    <Compile Include="Assets\Scripts\BigDoubleEditor.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Effects\UniversalRP\PUnderwaterOverride.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\DayNightCycle\JAnimatableAttribute.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PPoseidonSettings.cs" />
@@ -212,6 +214,7 @@
     <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\Materials.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TInvertNode.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PLightingModel.cs" />
+    <Compile Include="Assets\Script\GameController.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Connection\ITEdge.cs" />
     <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\AspectRatio.cs" />
     <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\ResolutionSizer.cs" />
@@ -228,7 +231,6 @@
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Common\TVersionInfo.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Parameters\TGenericParameter.cs" />
     <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterText.cs" />
-    <Compile Include="Assets\Scripts\BigDouble.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Polaris Extension\PWaterSplineSync.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PHexMeshCreator.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PTimeMode.cs" />
@@ -308,7 +310,6 @@
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TGradientAngularNode.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Parameters\TStringParameter.cs" />
     <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PDiamondMeshCreator.cs" />
-    <Compile Include="Assets\Script\GameController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\HueSaturationBrightness.shader" />
@@ -403,7 +404,6 @@
     <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\Sharpen.shader" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\LivePreview\ErosionLivePreview.shader" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\PainterCursorProjector.shader" />
-    <None Include="Assets\UI Toolkit\Display.uxml" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\ThermalErosion.compute" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\CGIncludes\PCaustic.cginc" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\ErosionTool\InitErosion.compute" />
@@ -471,7 +471,6 @@
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Samples\Pinwheel Studio\Shaders\Thunder.shader" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\BillboardTool\BillboardCreatorNormal.shader" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\UniversalRP\WaterBasicURP.shader" />
-    <None Include="Assets\UI Toolkit\UIUSS\Button-style.uss" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\GradientAngular.shader" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\CGIncludes\PWave.cginc" />
     <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\changelog.txt" />
@@ -789,6 +788,9 @@
     </Reference>
     <Reference Include="UnityEditor.TextCoreTextEngineModule">
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
@@ -1252,9 +1254,6 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UIBuilderModule">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UIBuilderModule.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
@@ -1300,11 +1299,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Pinwheel.Polaris.Editor.csproj">
-      <Project>{67FAEE1F-DBC8-EA78-5D9E-517966C8A798}</Project>
+      <Project>{AE437A6D-ABD0-D26B-070D-C20052019599}</Project>
       <Name>Pinwheel.Polaris.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Pinwheel.Polaris.Runtime.csproj">
-      <Project>{F8A38836-C35D-DBEC-A700-D9B876F1FEDB}</Project>
+      <Project>{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}</Project>
       <Name>Pinwheel.Polaris.Runtime</Name>
     </ProjectReference>
   </ItemGroup>

@@ -32,7 +32,7 @@ VisualElement {
     -unity-font-style: normal;
     width: 7%;
     height: 50%;
-    color: rgba(255, 255, 255, 255);
+    color: rgb(255, 255, 255);
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -62,4 +62,28 @@ VisualElement {
     padding-top: 0;
     padding-bottom: 0;
     background-color: rgba(118, 0, 0, 0.5);
+}
+
+.ui-style-label {
+    font-size: 30px;
+    flex-shrink: 0;
+    flex-grow: 0.5;
+    text-shadow: 1px -0.7px 1.5px rgb(0, 0, 0);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -unity-background-image-tint-color: rgba(245, 0, 0, 0.62);
+    background-color: rgba(255, 0, 0, 0.28);
+    background-image: url('project://database/Assets/Polaris%20-%20Low%20Poly%20Ecosystem/Polaris%20-%20Low%20Poly%20Terrain%20Engine/Samples/Pinwheel%20Studio/Textures/TerrainMask_Edges.psd?fileID=2800000&guid=22709f1eedff1a74295ff77f5cf47763&type=3#TerrainMask_Edges');
+    -unity-font-style: normal;
+    -unity-font: url('project://database/Assets/Font/Font_Protector.ttf?fileID=12800000&guid=b66867e4be1114e4eb56cfcf0b7d8010&type=3#Font_Protector');
 }

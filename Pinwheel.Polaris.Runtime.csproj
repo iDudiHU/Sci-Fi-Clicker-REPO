@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F8A38836-C35D-DBEC-A700-D9B876F1FEDB}</ProjectGuid>
+    <ProjectGuid>{E6EA2697-D4D6-4933-B940-1C2D7AAC15FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Pinwheel.Polaris.Runtime</AssemblyName>
@@ -553,7 +553,7 @@
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIBuilderModule">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UIBuilderModule.dll</HintPath>
+      <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
       <HintPath>Z:\Unity\Unity Editor\2021.2.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>

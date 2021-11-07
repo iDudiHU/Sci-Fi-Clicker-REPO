@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fca4c1acdeae0a4f9d602104c2bc72b, type: 3}
+  m_Name: Materials
+  m_EditorClassIdentifier: 
+  materials:
+  - Name: Standard
+    Material: {fileID: 2100000, guid: 6e9f27fd6fa2dab419c89444f24414ca, type: 2}
+    Properties:
+      FloatProperties: []
+    Effect: 0
+  - Name: Standard
+    Material: {fileID: 2100000, guid: a395e0b5343e96f4f9886010da635bfe, type: 2}
+    Properties:
+      FloatProperties: []
+    Effect: 1
+  - Name: Standard
+    Material: {fileID: 2100000, guid: c0275406db8521f45b5b6435a2c8697b, type: 2}
+    Properties:
+      FloatProperties: []
+    Effect: 2
+  - Name: Standard
+    Material: {fileID: 2100000, guid: 86324b44d233d2c4792001b255c1c034, type: 2}
+    Properties:
+      FloatProperties: []
+    Effect: 3
+  - Name: Standard
+    Material: {fileID: 2100000, guid: 41ef289fc0eb0644ebe59def3dbb8ce2, type: 2}
+    Properties:
+      FloatProperties: []
+    Effect: 4
+  - Name: Grayscale
+    Material: {fileID: 2100000, guid: de76183b7331d044d9f9c34e97e2f62b, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Amount
+        Value: 1
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 0
+  - Name: Grayscale
+    Material: {fileID: 2100000, guid: 9dc41ebe3af4ef249a6878b8d9ff7923, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Amount
+        Value: 1
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 1
+  - Name: Grayscale
+    Material: {fileID: 2100000, guid: 7a64b8e6a37255045a66d6b098f372d1, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Amount
+        Value: 1
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 2
+  - Name: Grayscale
+    Material: {fileID: 2100000, guid: a66337a456d292a41a4ea055bd23bf85, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Amount
+        Value: 1
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 3
+  - Name: Grayscale
+    Material: {fileID: 2100000, guid: 1a734d9290a981540a96b5a79236a2ad, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Amount
+        Value: 1
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 4
+  - Name: Hue Saturation Brightness
+    Material: {fileID: 2100000, guid: 693e6385dbc5a424c8bcc27a7ca81333, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Hue
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+      - Name: Saturation
+        Value: 1
+        PropertyMap: 1
+        Min: 0
+        Max: 0
+      - Name: Brightness
+        Value: 1
+        PropertyMap: 2
+        Min: 0
+        Max: 0
+    Effect: 0
+  - Name: Hue Saturation Brightness
+    Material: {fileID: 2100000, guid: b6cf0e5d1e8d5da40a274c41b883a2d4, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Hue
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+      - Name: Saturation
+        Value: 1
+        PropertyMap: 1
+        Min: 0
+        Max: 0
+      - Name: Brightness
+        Value: 1
+        PropertyMap: 2
+        Min: 0
+        Max: 0
+    Effect: 1
+  - Name: Hue Saturation Brightness
+    Material: {fileID: 2100000, guid: 5bfdd0e8aeda83f46bf49548ce5fb6ed, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Hue
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+      - Name: Saturation
+        Value: 1
+        PropertyMap: 1
+        Min: 0
+        Max: 0
+      - Name: Brightness
+        Value: 1
+        PropertyMap: 2
+        Min: 0
+        Max: 0
+    Effect: 2
+  - Name: Hue Saturation Brightness
+    Material: {fileID: 2100000, guid: c64fdbc2c2a3d0040a1f98879aa029cd, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Hue
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+      - Name: Saturation
+        Value: 1
+        PropertyMap: 1
+        Min: 0
+        Max: 0
+      - Name: Brightness
+        Value: 1
+        PropertyMap: 2
+        Min: 0
+        Max: 0
+    Effect: 3
+  - Name: Hue Saturation Brightness
+    Material: {fileID: 2100000, guid: 026177ce1dce5834ba5f333de6c3f003, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Hue
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+      - Name: Saturation
+        Value: 1
+        PropertyMap: 1
+        Min: 0
+        Max: 0
+      - Name: Brightness
+        Value: 1
+        PropertyMap: 2
+        Min: 0
+        Max: 0
+    Effect: 4
+  - Name: Color Overlay
+    Material: {fileID: 2100000, guid: 338f504cd2199ef45875026a5a9b93db, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Opacity
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 0
+  - Name: Color Overlay
+    Material: {fileID: 2100000, guid: 39dc841024640234ebd134df350be24a, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Opacity
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 1
+  - Name: Color Overlay
+    Material: {fileID: 2100000, guid: 901b9d47b383617458cac60992125a1b, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Opacity
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 2
+  - Name: Color Overlay
+    Material: {fileID: 2100000, guid: acc23fe83dbd01948844148dc4339b86, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Opacity
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 3
+  - Name: Color Overlay
+    Material: {fileID: 2100000, guid: bddb3f5c322946245b7eb02fcd1abb91, type: 2}
+    Properties:
+      FloatProperties:
+      - Name: Opacity
+        Value: 0
+        PropertyMap: 0
+        Min: 0
+        Max: 1
+    Effect: 4

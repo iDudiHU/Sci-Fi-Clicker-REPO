@@ -1,25 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using TMPro;
+using UnityEngine.UI;
 using BreakInfinity;
 
 public class GameController : MonoBehaviour
 {
     public Data data;
-    public Button generateButton;
-    public Label counterLabel;
+    [SerializeField] private TMP_Text counterLabel;
 
     void Start()
     {
         data = new Data();
-        var root = GetComponent<UIDocument>().rootVisualElement;
-        
 
-        generateButton = root.Q<Button>("generate-button");
-        counterLabel = root.Q<Label>("counter-text");
-
-        generateButton.RegisterCallback<ClickEvent>(ev => GenerateButtonPressed());
     }
 
     void Update()
@@ -28,7 +22,7 @@ public class GameController : MonoBehaviour
 
     }
 
-    void GenerateButtonPressed()
+    public void GenerateButtonPressed()
     {
         data.Elon += 1;
     }
