@@ -297,6 +297,7 @@
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TGradientAngularNode.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Parameters\TStringParameter.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PDiamondMeshCreator.cs" />
+     <Compile Include="Assets\Script\Methods.cs" />
      <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\HueSaturationBrightness.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\PostProcessing\WetLens.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\GradientRadial.shader" />
@@ -338,7 +339,6 @@
      <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\GaussianBlur.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\UniversalRP\UniversalRP_SurfaceFunction.cginc" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\Internal\PaintTool\ElevationPainter.shader" />
-     <None Include="Assets\Scenes\Idle.uss" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\CGIncludes\PPostProcessingCommon.cginc" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Polaris - Low Poly Terrain Engine\Runtime\Shaders\BuiltinRP\Terrain\BuiltinRP_PBR_VertexColor.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\ColorspaceConversion.shader" />

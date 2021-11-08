@@ -7,28 +7,34 @@ using BreakInfinity;
 
 public class GameController : MonoBehaviour
 {
+    public static GameController instance; 
+    public void Awake() => instance = this;
     public Data data;
     [SerializeField] private TMP_Text counterLabel;
     [SerializeField] private TMP_Text clickPowerText;
-    [SerializeField] private UpgradesManager upgradesManager;
     [Header("----------------")] 
     public GameObject floor;
-
     public GameObject walls;
-
     public GameObject geodome;
-
     public GameObject commandCenter;
-
     public GameObject middleArea;
-
     public GameObject shipVisual;
 
-    public BigDouble ClickPower() => 1 + data.clickUpgradeLevel;
+    public BigDouble ClickPower()
+    {
+        BigDouble total = 1;
+        for (int i = 0; i < data.clickUpgradeLevel.Count; i++)
+        {
+            total += UpgradesManager.instance.clickUpgradesBasePower[i] * data.clickUpgradeLevel[i];
+        }
+
+        return total;
+    }
+
     void Start()
     {
         data = new Data();
-        upgradesManager.StartUpgradeManager();
+        UpgradesManager.instance.StartUpgradeManager();
 
     }
 

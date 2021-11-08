@@ -10,6 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Methods.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="20ZkQAV4MfSbSU0T2Ow5LhC4uM7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -54,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1636259480734</updated>
       <workItem from="1636259487800" duration="5788000" />
+      <workItem from="1636322040454" duration="7706000" />
     </task>
     <servers />
   </component>
