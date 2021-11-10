@@ -8,16 +8,16 @@ public class Methods : MonoBehaviour
 {   
     public  static List<T> CreateList<T>(int capacity) => Enumerable.Repeat(default(T), capacity).ToList();
 
-    public static void UpgradeCheck<T>(ref List<T> List, int length) where T : new()
+    public static void UpgradeCheck<T>(List<T> list, int length) where T : new()
     {
         try
         {
-            if (List.Count == 0) List = CreateList<T>(length);
-            while(List.Count < length) List.Add(new T());
+            if (list.Count == 0) list = new T[length].ToList();
+            while(list.Count < length) list.Add(new T());
         }
         catch
         {
-            List = CreateList<T>(length);
+            list = new T[length].ToList();
         }
     }
 

@@ -1,14 +1,18 @@
 using System.Collections.Generic;
+using System.Linq;
 using BreakInfinity;
 
 public class Data
 {
 	public BigDouble Elon;
-	public List<BigDouble> clickUpgradeLevel;
-
+	
+	public List<int> clickUpgradeLevel;
+	public List<int> productionUpgradeLevel;
 	public Data()
 	{
 		Elon = 0;
-		clickUpgradeLevel = Methods.CreateList<BigDouble>(3);
+		
+		clickUpgradeLevel = new int[4].ToList();
+		productionUpgradeLevel = new int[4].ToList();
 	}
 }

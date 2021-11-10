@@ -76,6 +76,7 @@
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TAbstractTextureNode.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\ObjectActivenessTransitions.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\Utils\ScreenType\ScreenInfo.cs" />
+     <Compile Include="Assets\Script\Methods.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Parameters\TFloatParameter.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TPolarToCartesianNode.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\Vector3SizeModifier.cs" />
@@ -179,7 +180,6 @@
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Common\TTilingMode.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Utilities\PProgressCancelledException.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\Jupiter - Procedural Sky\Runtime\Scripts\Core\JSky.cs" />
-     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\BetterImage.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiElements\Transitions\MaterialPropertyTransition.cs" />
      <Compile Include="Assets\TheraBytes\BetterUI\Runtime\Scripts\BetterUiLayout\SizeModifiers\SizeConfigCollection.cs" />
@@ -297,7 +297,6 @@
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Nodes\TGradientAngularNode.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Parameters\TStringParameter.cs" />
      <Compile Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Scripts\Core\PDiamondMeshCreator.cs" />
-     <Compile Include="Assets\Script\Methods.cs" />
      <None Include="Assets\TheraBytes\BetterUI\Runtime\Resources\Materials\HueSaturationBrightness.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\Poseidon - Low Poly Water System\Runtime\Shaders\PostProcessing\WetLens.shader" />
      <None Include="Assets\Polaris - Low Poly Ecosystem\TextureGraph\Core\Runtime\Shaders\GradientRadial.shader" />

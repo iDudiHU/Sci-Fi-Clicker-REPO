@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public void Awake() => instance = this;
     public Data data;
     [SerializeField] private TMP_Text counterLabel;
+    [SerializeField] private TMP_Text productionPerSecond;
     [SerializeField] private TMP_Text clickPowerText;
     [Header("----------------")] 
     public GameObject floor;
@@ -30,6 +31,17 @@ public class GameController : MonoBehaviour
 
         return total;
     }
+    
+    public BigDouble ProductionPower()
+    {
+        BigDouble total = 0;
+        for (int i = 0; i < data.productionUpgradeLevel.Count; i++)
+        {
+            total += UpgradesManager.instance.productionUpgradesBasePower[i] * data.productionUpgradeLevel[i];
+        }
+
+        return total;
+    }
 
     void Start()
     {
@@ -42,7 +54,8 @@ public class GameController : MonoBehaviour
     {
         UpdateCounterLabel();
         Activiser();
-        clickPowerText.text = "+" + ClickPower() + "Elon";
+
+        data.Elon += ProductionPower() * Time.deltaTime;
 
     }
 
@@ -80,6 +93,8 @@ public class GameController : MonoBehaviour
 
     void UpdateCounterLabel()
     {
-        counterLabel.text = $"{data.Elon} Elon";
+        counterLabel.text = $"{data.Elon:F2} Elon";
+        productionPerSecond.text = $"{ProductionPower():F2}/s";
+        clickPowerText.text = "+" + ClickPower() + "Elon";
     }
 }
